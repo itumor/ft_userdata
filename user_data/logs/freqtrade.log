@@ -1,0 +1,560 @@
+2022-07-27 16:23:24,310 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:23:24,312 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:23:24,316 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:23:24,317 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:23:24,318 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:23:24,319 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:23:24,418 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:23:24,421 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2022-07-27 16:23:24,423 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:23:24,425 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:23:24,443 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:23:24,445 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:23:24,447 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:23:24,603 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:23:24,606 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:23:24,608 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:23:24,609 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:23:24,611 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:23:24,613 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:23:24,614 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:23:24,616 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:23:24,617 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:23:24,619 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:23:24,621 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:23:24,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:23:24,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:23:24,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:23:24,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:23:24,630 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:23:24,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:23:24,633 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:23:24,635 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:23:24,637 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:23:24,638 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:23:24,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:23:24,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:23:24,643 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:23:24,644 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:23:24,646 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:23:24,647 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:23:24,648 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:23:24,650 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:23:24,658 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:23:24,660 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:23:24,691 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:23:27,036 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:23:27,418 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:23:27,579 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-07-27 16:23:28,768 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-07-27 16:23:28,783 - VolumePairList - INFO - Searching 20 pairs: ['BTC/USDT', 'ETH/USDT', 'BUSD/USDT', 'USDC/USDT', 'ETC/USDT', 'SOL/USDT', 'MATIC/USDT', 'RAD/USDT', 'ADA/USDT', 'XRP/USDT', 'OOKI/USDT', 'APE/USDT', 'AVAX/USDT', 'ATOM/USDT', 'BOND/USDT', 'GMT/USDT', 'SHIB/USDT', 'OP/USDT', 'TRX/USDT', 'DOT/USDT']
+2022-07-27 16:23:28,789 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:23:28,791 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:23:28,792 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:23:28,794 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:23:28,795 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:23:28,796 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:23:28,797 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:23:28,798 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:23:28,799 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:23:28,800 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:23:28,801 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:23:28,802 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:23:28,804 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-07-27 16:23:33,805 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:24:33,823 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:25:33,832 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:26:33,844 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:27:33,852 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:28:33,860 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:29:33,867 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:30:33,884 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:31:33,910 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:32:33,930 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:33:38,935 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:34:38,937 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:35:38,953 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:36:38,954 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:37:38,969 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:38:38,979 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:39:39,014 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:40:07,257 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:40:07,595 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for RAD/USDT with stake_amount: 100 ...
+2022-07-27 16:40:07,862 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1658940007.597858 was created for RAD/USDT and status is open.
+2022-07-27 16:40:07,929 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:40:07,931 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binance', 'pair': 'RAD/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 3.035, 'open_rate': 3.035, 'order_type': 'limit', 'stake_amount': 100.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 32.948929159802304, 'open_date': datetime.datetime(2022, 7, 27, 16, 40, 7, 864517), 'current_rate': 3.035}
+2022-07-27 16:40:09,347 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:14,350 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:19,333 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:25,061 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:29,353 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:34,352 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:39,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:40:39,375 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:45,087 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:49,369 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:54,377 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:40:59,417 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:04,379 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:09,389 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:14,385 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:19,368 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:24,367 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:30,099 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07)
+2022-07-27 16:41:30,138 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=RAD/USDT, amount=32.94892916, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07) [buy]: 0.0998515 USDT - rate: 0.001
+2022-07-27 16:41:30,140 - freqtrade.persistence.trade_model - INFO - Updating trade (id=1) ...
+2022-07-27 16:41:30,142 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=RAD/USDT, amount=32.90000000, is_short=False, leverage=1.0, open_rate=3.03500000, open_since=2022-07-27 16:40:07).
+2022-07-27 16:41:30,218 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:41:30,220 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_fill, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binance', 'pair': 'RAD/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 3.035, 'open_rate': 3.035, 'order_type': None, 'stake_amount': 99.8515, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 32.9, 'open_date': datetime.datetime(2022, 7, 27, 16, 40, 7, 864517), 'current_rate': 3.035}
+2022-07-27 16:41:39,054 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:42:39,073 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:43:45,097 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:43:45,099 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:43:45,102 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:43:45,104 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:43:45,107 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:43:45,109 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:43:45,247 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:43:45,249 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:43:45,252 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:43:45,283 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:43:45,285 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:43:45,287 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:43:45,389 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:43:45,392 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:43:45,394 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:43:45,396 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:43:45,399 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:43:45,401 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:43:45,405 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:43:45,407 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:43:45,409 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:43:45,412 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:43:45,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:43:45,417 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:43:45,420 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:43:45,422 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:43:45,424 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:43:45,427 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:43:45,430 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:43:45,434 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:43:45,436 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:43:45,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:43:45,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:43:45,444 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:43:45,446 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:43:45,449 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:43:45,452 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:43:45,454 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:43:45,456 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:43:45,459 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:43:45,461 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:43:45,473 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:43:45,476 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:43:45,519 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:43:48,409 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:43:48,757 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:43:48,856 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:43:48,870 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:43:48,872 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:43:48,874 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:43:48,876 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:43:48,877 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:43:48,879 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:43:48,881 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:43:48,883 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:43:48,885 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:43:48,887 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:43:48,890 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:43:48,893 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:43:48,896 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:43:53,900 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:44:53,921 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:45:53,948 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:47:26,059 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:47:26,061 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:47:26,062 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:47:26,063 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:47:26,065 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:47:26,067 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:47:26,167 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:47:26,168 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:47:26,169 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:47:26,189 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:47:26,191 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:47:26,192 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:47:26,289 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:47:26,292 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:47:26,294 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:47:26,296 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:47:26,297 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:47:26,298 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:47:26,300 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:47:26,301 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:47:26,302 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:47:26,304 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:47:26,305 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:47:26,306 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:47:26,307 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:47:26,309 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:47:26,310 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:47:26,311 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:47:26,312 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:47:26,314 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:47:26,315 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:47:26,316 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:47:26,318 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:47:26,319 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:47:26,320 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:47:26,322 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:47:26,323 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:47:26,324 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:47:26,326 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:47:26,327 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:47:26,328 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:47:26,333 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:47:26,335 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:47:26,362 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:47:29,621 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:47:30,095 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:47:30,178 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:47:30,191 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:47:30,193 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:47:30,194 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:47:30,196 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:47:30,197 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:47:30,199 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:47:30,200 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:47:30,202 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:47:30,203 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:47:30,205 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:47:30,206 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:47:30,207 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:47:30,208 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:47:35,214 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:48:35,239 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:49:40,237 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:50:17,230 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:50:17,231 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:50:17,233 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:50:17,235 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:50:17,236 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:50:17,238 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:50:17,342 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:50:17,344 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:50:17,346 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:50:17,367 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:50:17,370 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:50:17,372 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:50:17,468 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:50:17,471 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:50:17,473 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:50:17,476 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:50:17,479 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:50:17,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:50:17,485 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:50:17,488 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:50:17,491 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:50:17,495 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:50:17,498 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:50:17,501 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:50:17,504 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:50:17,506 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:50:17,508 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:50:17,511 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:50:17,515 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:50:17,519 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:50:17,521 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:50:17,523 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:50:17,525 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:50:17,527 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:50:17,529 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:50:17,531 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:50:17,533 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:50:17,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:50:17,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:50:17,540 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:50:17,542 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:50:17,551 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:50:17,553 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:50:17,589 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:50:20,828 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:50:21,138 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:50:21,247 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:50:21,261 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:50:21,264 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:50:21,266 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:50:21,268 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:50:21,272 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:50:21,274 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:50:21,278 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:50:21,281 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:50:21,284 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:50:21,286 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:50:21,288 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:50:21,291 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:50:21,293 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:50:26,301 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:51:30,411 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:51:30,413 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:51:30,416 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:51:30,418 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:51:30,421 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:51:30,423 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:51:30,563 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:51:30,564 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:51:30,566 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:51:30,588 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:51:30,590 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:51:30,592 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:51:30,684 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:51:30,687 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:51:30,690 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:51:30,692 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:51:30,694 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:51:30,695 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:51:30,698 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:51:30,700 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:51:30,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:51:30,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:51:30,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:51:30,708 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:51:30,710 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:51:30,711 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:51:30,713 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:51:30,715 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:51:30,717 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:51:30,718 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:51:30,720 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:51:30,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:51:30,724 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:51:30,726 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:51:30,729 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:51:30,732 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:51:30,734 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:51:30,737 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:51:30,740 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:51:30,742 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:51:30,744 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:51:30,752 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:51:30,754 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:51:30,787 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:51:33,593 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:51:33,793 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:51:33,881 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:51:33,914 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:51:33,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:51:33,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:51:33,923 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:51:33,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:51:33,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:51:33,931 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:51:33,933 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:51:33,936 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:51:33,938 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:51:33,941 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:51:33,946 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:51:33,949 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:51:38,957 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:52:52,430 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:52:52,431 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:52:52,433 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:52:52,435 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:52:52,437 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:52:52,439 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:52:52,560 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:52:52,562 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:52:52,565 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:52:52,594 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:52:52,596 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:52:52,600 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:52:52,725 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:52:52,730 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:52:52,736 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:52:52,749 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:52:52,761 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:52:52,766 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:52:52,771 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:52:52,773 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:52:52,776 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:52:52,780 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:52:52,784 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:52:52,788 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:52:52,792 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:52:52,795 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:52:52,799 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:52:52,802 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:52:52,805 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:52:52,808 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:52:52,810 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:52:52,813 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:52:52,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:52:52,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:52:52,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:52:52,823 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:52:52,829 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:52:52,834 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:52:52,838 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:52:52,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:52:52,846 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:52:52,857 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:52:52,860 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:52:52,906 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:52:54,834 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:52:55,090 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:52:55,185 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:52:55,199 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:52:55,201 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:52:55,203 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:52:55,205 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:52:55,207 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:52:55,208 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:52:55,211 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:52:55,213 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:52:55,215 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:52:55,217 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:52:55,219 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:52:55,221 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:52:55,223 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:53:00,231 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:54:00,301 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:54:57,480 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:54:57,483 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:54:57,487 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:54:57,489 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:54:57,493 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:54:57,495 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:54:57,638 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:54:57,640 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:54:57,643 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:54:57,673 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:54:57,676 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:54:57,678 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:54:57,810 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:54:57,813 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:54:57,816 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:54:57,819 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:54:57,822 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:54:57,824 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:54:57,826 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:54:57,828 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:54:57,830 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:54:57,833 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:54:57,836 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:54:57,838 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:54:57,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:54:57,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:54:57,846 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:54:57,849 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:54:57,852 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:54:57,855 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:54:57,857 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:54:57,859 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:54:57,862 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:54:57,864 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:54:57,867 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:54:57,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:54:57,872 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:54:57,874 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:54:57,876 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:54:57,878 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:54:57,880 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:54:57,889 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:54:57,891 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:54:57,926 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:55:00,492 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:55:00,750 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:55:00,843 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-07-27 16:55:01,976 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2022-07-27 16:55:01,978 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2022-07-27 16:55:01,980 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2022-07-27 16:55:01,982 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-07-27 16:55:02,000 - uvicorn.error - INFO - Started server process [1]
+2022-07-27 16:55:02,004 - uvicorn.error - INFO - Waiting for application startup.
+2022-07-27 16:55:02,006 - uvicorn.error - INFO - Application startup complete.
+2022-07-27 16:55:02,008 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2022-07-27 16:55:02,030 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:55:02,053 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:55:02,057 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:55:02,060 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:55:02,062 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:55:02,077 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:55:02,082 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:55:02,087 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:55:02,092 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:55:02,096 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:55:02,100 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:55:02,105 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:55:02,109 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:55:02,111 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:55:07,120 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
+2022-07-27 16:55:40,896 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-27 16:55:40,898 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-27 16:55:40,899 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-27 16:55:40,902 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-27 16:55:40,905 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-27 16:55:40,908 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-27 16:55:41,057 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-27 16:55:41,058 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2022-07-27 16:55:41,061 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-27 16:55:41,087 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-07-27 16:55:41,090 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-27 16:55:41,093 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.6
+2022-07-27 16:55:41,199 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-27 16:55:41,203 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-27 16:55:41,206 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-27 16:55:41,207 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-27 16:55:41,209 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-27 16:55:41,211 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-27 16:55:41,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-27 16:55:41,215 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-27 16:55:41,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-27 16:55:41,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-27 16:55:41,224 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-27 16:55:41,226 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-27 16:55:41,230 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-27 16:55:41,232 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-27 16:55:41,235 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-27 16:55:41,239 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-27 16:55:41,240 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-27 16:55:41,243 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-27 16:55:41,245 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-27 16:55:41,248 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-27 16:55:41,251 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-27 16:55:41,255 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-27 16:55:41,257 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-27 16:55:41,259 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-27 16:55:41,261 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-27 16:55:41,264 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-27 16:55:41,267 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-27 16:55:41,269 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-27 16:55:41,272 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-27 16:55:41,280 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-27 16:55:41,282 - freqtrade.exchange.exchange - INFO - Using CCXT 1.89.14
+2022-07-27 16:55:41,319 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-07-27 16:55:44,543 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-07-27 16:55:45,011 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-27 16:55:45,089 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-07-27 16:55:45,854 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2022-07-27 16:55:45,856 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2022-07-27 16:55:45,859 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2022-07-27 16:55:45,861 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-07-27 16:55:45,874 - uvicorn.error - INFO - Started server process [1]
+2022-07-27 16:55:45,876 - uvicorn.error - INFO - Waiting for application startup.
+2022-07-27 16:55:45,879 - uvicorn.error - INFO - Application startup complete.
+2022-07-27 16:55:45,883 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2022-07-27 16:55:45,911 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-07-27 16:55:45,931 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-27 16:55:45,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-27 16:55:45,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-27 16:55:45,942 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-27 16:55:45,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-27 16:55:45,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-27 16:55:45,951 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-27 16:55:45,957 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-27 16:55:45,961 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-27 16:55:45,967 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-27 16:55:45,975 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-27 16:55:45,980 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-27 16:55:45,985 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2022-07-27 16:55:50,994 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.6', state='RUNNING'
